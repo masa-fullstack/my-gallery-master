@@ -1,95 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
+<html lang="en" class="h-100">
+	<head>
+		<title>my gallery</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<!-- Original CSS -->
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+	</head>
+	<body class="h-100">
+		<div class="container">
+			<!-- user information -->
+			<div class="row justify-content-center mb-4">
+				<div class="col-md-5 col-8">
+					<div class="row">
+						<div class="col text-center">
+							<img
+								src="./images//profilePhoto.png"
+								class="w-50 mt-5 mb-2"
+								alt="profile photo"
+							/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col text-center">
+							<h5>Roudney Cotton</h5>
+							<p>Helsinki, Finland</p>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-3 bg-light-grey card text-center">
+							<div class="card-title">100</div>
+							<div class="card-item">Posts</div>
+						</div>
+						<div class="col-1"></div>
+						<div class="col-3 bg-light-grey card text-center">
+							<div class="card-title">2,242</div>
+							<div class="card-item">Follower</div>
+						</div>
+						<div class="col-1"></div>
+						<div class="col-3 bg-light-grey card text-center">
+							<div class="card-title">1,432</div>
+							<div class="card-item">Following</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- gallery -->
+			<div class="row align-middle text-center">
+				<div class="col-12">
+					<div class="row">
+						<div class="col-4 row-1 py-2">
+							<img src="./images/photo1.png" class="img-fluid" alt="gallery" />
+						</div>
+						<div class="col-8 row-1 py-2">
+							<img src="./images/photo2.png" class="img-fluid" alt="gallery" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-8">
+							<div class="row">
+								<div class="col row-1 py-2">
+									<img
+										src="./images/photo3.png"
+										class="img-fluid"
+										alt="gallery"
+									/>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-6 row-1 py-2">
+									<img
+										src="./images/photo6.png"
+										class="img-fluid"
+										alt="gallery"
+									/>
+								</div>
+								<div class="col-6 row-1 py-2">
+									<img
+										src="./images/photo5.png"
+										class="img-fluid"
+										alt="gallery"
+									/>
+								</div>
+							</div>
+						</div>
+						<div class="col-4 row-2 py-1">
+							<img
+								src="./images/photo4.png"
+								class="img-fluid img-fixed"
+								alt="gallery"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="mt-auto text-center">
+				<p class="py-5">masa @DevChallenges.io</p>
+			</footer>
+		</div>
 
-    <link rel="icon" href="devchallenges.png" />
-
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
-  </body>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
